@@ -7,7 +7,7 @@
 :root {
     --primary: #00FFFF;
     --black: #333333;
-    --width-break:600px
+    --width-break: 600px
 }
 
 body {
@@ -20,7 +20,15 @@ nav {
     background-color: var(--primary);
     text-align: center;
 }
-
+.hero {
+    padding: 1rem;
+    padding-top: 0.5rem;
+}
+.hero .hero-heading {
+    padding-top: 0.2rem;
+    color: var(--dark-gray);
+    text-align: center;
+}
 main {
     margin: auto;
     padding: 1rem;
@@ -32,7 +40,6 @@ textarea {
     display: block;
     width: 100%;
     min-height: 20vh;
-    margin-top: 2rem;
     font-size: large;
     font-family: inherit;
 }
@@ -48,17 +55,24 @@ button {
 }
 
 
-#txt-output {
+#txt-output{
     box-sizing: border-box;
     width: 100%;
     min-height: 10vh;
     max-height: 20vh;
-    overflow:scroll;
+    overflow: scroll;
     border: 1px solid var(--black);
+    padding: 1rem;
+    font-size: large;
+}
+
+.div-output{
+    color: black;
+    text-align: center;
 }
 
 footer {
-    position: fixed;
+    position:relative;
     bottom: 0;
     width: 100%;
     padding: 1rem;
