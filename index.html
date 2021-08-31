@@ -6,18 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
+    <script src="app.js" type="text/javascript"> </script>
     <title>Translator App</title>
 </head>
 
 <body>
-    <h1>Talk Banana</h1>
-    <textarea id="txt-input" class="txt-area" placeholder="English"></textarea>
-    <button id="btn-translate">Translate</button>
-
-    <div class="div-output">Output 👇</div>
-    <div id="txt-output"></div>
-
-    <script src="app.js" type="text/javascript"></script>
+    <nav>
+        <div style="font-size: 2rem; padding: 1rem;">
+            MorseCode Translator
+        </div>
+    </nav>
+    <main>
+        <textarea id="txt-input" placeholder="Put your message here which you want to convert to MorseCode"></textarea>
+        <button id="btn-Translate"> Translate</button>
+        <div>Translation will come here 👇</div>
+        <div id="txt-output" style="padding: 1rem; font-size: large;"></div>
+    </main>
+    <footer>
+        <div style="font-size: x-large;">about</div>
+        <p>Are you a fan of morse code? or Are you interested to know about your name in Morse code? Then you came to
+            right place.</p>
+    </footer>
 </body>
 
 </html>
