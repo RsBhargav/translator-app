@@ -19,6 +19,8 @@ body {
 nav {
     background-color: var(--primary);
     text-align: center;
+    border-top-left-radius: 2.5rem;
+    border-top-right-radius: 2.5rem;
 }
 .hero {
     padding: 1rem;
@@ -78,6 +80,8 @@ footer {
     padding: 1rem;
     background-color: var(--primary);
     text-align: center;
+    border-bottom-left-radius: 2.5rem;
+    border-bottom-right-radius: 2.5rem;
 }
 
 footer p {
